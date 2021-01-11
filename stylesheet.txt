@@ -1,0 +1,113 @@
+.user-css .world-title{
+    font-family: optialthea;
+    color: #4e1300;
+    margin-top: 40px;
+}
+
+.user-css .world-title:after{
+    display:none;
+    content:'';
+}
+
+.user-css .world-title .world-subtitle{
+    position:relative;
+    padding-bottom: 40px;
+}
+
+.user-css .world-title .world-subtitle:before {
+    content:'';
+    height: 22px;
+    width: 60%;
+    margin:10px 0 -20px;
+    background-image: url(https://www.worldanvil.com/uploads/images/b5ba355864016e3cb3b6f0fd8ca28673.png);
+    position: relative;
+    top: 0;
+    background-size: cover;
+    display: block;
+    left: 20%;
+}
+
+.user-css .world-title .world-subtitle small{
+    color: #09131a;
+    font-size: 36px;
+}
+
+.user-css h2,
+.user-css-extended h2,
+.user-css h3,
+.user-css-extended h3{
+    font-family: optibaskervilleregular;
+    color: #4e1300;
+    text-transform: uppercase;
+    font-weight: bold;    
+}
+
+.user-css h2::first-letter,
+.user-css-extended h2::first-letter,
+.user-css h3::first-letter,
+.user-css-extended h3::first-letter{
+    font-size:32px;
+    border:none;
+}
+
+
+.user-css-presentation {
+    background: url(https://rawcdn.githack.com/marlosrocha/toril/349a4e2e56216c73e0cf5a43dc4b7a7a5e2246ed/images/Reghedglacier.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.user-css.page,
+.user-css-extended .page {
+    background: url(https://rawcdn.githack.com/marlosrocha/toril/349a4e2e56216c73e0cf5a43dc4b7a7a5e2246ed/images/bg-light-min.png);
+}
+
+.user-css,
+.user-css-extended,
+.user-css a,
+.user-css-extended a{
+    font-family: libraria;
+    letter-spacing: 0.2px;
+    color: #09131a;
+}
+
+.user-css .map-box,
+.user-css-extended .map-box {
+    background-color: #cbe1e8;
+    box-shadow:none;
+    border-image: url(https://rawcdn.githack.com/marlosrocha/toril/6a17404cbd1dcbcbbfa2e7d147f634c4bdaee1b8/images/bordasbox.png) 12 stretch;
+    border-image-outset: 4px;
+}
+
+.user-css .map-box:hover,
+.user-css-extended .map-box:hover {
+    
+}
+
+@font-face{
+    font-family: optialthea;
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://rawcdn.githack.com/marlosrocha/toril/39084ccd83f339a97b8b870102447c82190d520f/fonts/optialtheabold-two-webfont.woff);
+}
+
+@font-face{
+    font-family: libraria;
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://rawcdn.githack.com/marlosrocha/toril/c4ad7724e5aff2883cdc12eaabba0928a83fec32/fonts/libraria-webfont.woff);
+}
+
+@font-face{
+    font-family: optibaskervilleregular;
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://rawcdn.githack.com/marlosrocha/toril/1eb5d7788249f15c115ade6ed86517220897b015/fonts/optibaskerville-webfont.woff);
+}
+
+@font-face{
+    font-family: beclave;
+    font-style: normal;
+    font-weight: normal;
+    src: url(https://rawcdn.githack.com/marlosrocha/toril/1eb5d7788249f15c115ade6ed86517220897b015/fonts/beclave_demo-webfont.woff);
+}
