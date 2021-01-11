@@ -53,6 +53,22 @@
     background-size: cover;
     background-attachment: fixed;
 }
+.user-css.page div {
+    position:relative;
+    z-index: 1;
+}
+.user-css:after {
+    content: attr(href);
+    height: 500px;
+    width: 100%;
+    transform: scale(-1);
+    background-image: url(https://rawcdn.githack.com/marlosrocha/toril/90cf3578fa3b905eb42ea6803b92ebb2d7c75b06/images/TESTE_02.png);
+    position: absolute;
+    bottom: 0;
+    background-size: cover;
+    background-repeat: norepeat;
+    margin-left: -25px;
+}
 
 .user-css.page,
 .user-css-extended .page {
