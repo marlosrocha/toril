@@ -4,22 +4,17 @@
     margin-top: 40px;
 }
 
-.user-css .world-title:after{
-    display:none;
-    content:'';
-}
-
 .user-css .world-title .world-subtitle{
     position:relative;
     padding-bottom: 40px;
 }
 
 .user-css .world-title .world-subtitle:before {
-    content:'';
+    content: attr(href);
     height: 22px;
     width: 60%;
     margin:10px 0 -20px;
-    background-image: url(https://www.worldanvil.com/uploads/images/b5ba355864016e3cb3b6f0fd8ca28673.png);
+    background-image: url(https://rawcdn.githack.com/marlosrocha/toril/546504ba00c7d238444828a4548b2546cb172493/images/redline.png);
     position: relative;
     top: 0;
     background-size: cover;
@@ -29,7 +24,8 @@
 
 .user-css .world-title .world-subtitle small{
     color: #09131a;
-    font-size: 36px;
+    font-size: 38px;
+    letter-spacing: 0px;
 }
 
 .user-css h2,
@@ -39,7 +35,8 @@
     font-family: optibaskervilleregular;
     color: #4e1300;
     text-transform: uppercase;
-    font-weight: bold;    
+    font-weight: bold;
+    border: none;
 }
 
 .user-css h2::first-letter,
