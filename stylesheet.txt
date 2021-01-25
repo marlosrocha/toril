@@ -63,11 +63,12 @@
     content: attr(href);
     height: 100%;
     width: 100%;
-    background: url(https://rawcdn.githack.com/marlosrocha/toril/9c06efc367b86c79fa92131f656f3a4f958c56fe/images/pseudo_corpo_topo.png);
+    background: url(https://rawcdn.githack.com/marlosrocha/toril/8e73b9e5e8f82e161a9af752b41f941afba16b25/images/pseudo_banner.png);
     position: absolute;
     top: 100%;
     background-size: contain;
-    background-position-y: top;
+    transform: rotateX(180deg);
+    background-position-y: bottom;
     background-repeat: no-repeat;
 }
 
@@ -96,8 +97,8 @@
 
 .user-css.page,
 .user-css-extended .page {
-    background: url(https://rawcdn.githack.com/marlosrocha/toril/8e73b9e5e8f82e161a9af752b41f941afba16b25/images/bg-light-min.png);
-    background-size: 100% 100%;
+    background: url(https://rawcdn.githack.com/marlosrocha/toril/2fe7abd8598be1865112c5c8dd19467bc032042f/images/bg-light-minv2.png);
+    background-size: 100% auto;
 }
 
 .user-css,
